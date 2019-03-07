@@ -37,7 +37,7 @@ gem 'bootstrap-sass'
 gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
 
-gem 'less-rails'
+# gem 'less-rails'
 gem 'therubyracer'
 gem 'execjs'
 gem 'twitter-bootstrap-rails'
