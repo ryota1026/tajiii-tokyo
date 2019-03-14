@@ -35,7 +35,11 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bootstrap-sass'
 gem 'bootstrap', '~> 4.3.1'
+gem 'bootstrap-material-design'
+gem 'font-awesome-rails'
 gem 'jquery-rails'
+gem 'popper_js'
+gem 'sprockets'
 
 # gem 'less-rails'
 gem 'mini_racer'
@@ -70,6 +74,7 @@ end
 
 group :production do
   gem 'pg'
+  gem 'rails_12factor'
 end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
