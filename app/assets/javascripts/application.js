@@ -23,8 +23,6 @@
 //= require material/arrive.min
 //= require material/material-dashboard
 //= require moment.min
-//= require core
-//= require plugins
 //= require jquery_ujs
 //= require fullcalendar.min
 //= require_tree .
