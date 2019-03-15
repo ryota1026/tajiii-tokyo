@@ -9,6 +9,7 @@ Rails.application.config.assets.version = '1.0'
 Rails.application.config.assets.paths << Rails.root.join('node_modules')
 Rails.application.config.assets.precompile += %w( *.eot *.woff *.ttf *.svg *.otf *.png *.jpg *.jpeg *.gif vendor.css vendor.js )
 Rails.application.config.assets.paths << Rails.root.join("public", "img")
+Rails.application.config.assets.paths << Rails.root.join('assets', 'js')
 
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in the app/assets
