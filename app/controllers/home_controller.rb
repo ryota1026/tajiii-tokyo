@@ -13,5 +13,15 @@ class HomeController < ApplicationController
     text.gsub(/[\r\n]/,"")
     @count_contribute = text.gsub(/[\r\n]/,"")
     return @count_contribute
+    redirect_to('/')
   end
+
+  def dashboard
+
+  end
+
+  def user
+
+  end
+
 end
